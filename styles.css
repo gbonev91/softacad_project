@@ -1,0 +1,403 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #e8e8e8;
+	width: 90%;
+}
+
+#logo {
+	width: 200px;
+}
+
+
+#container {
+	float: left;
+	width: 80%;
+}
+
+h1 {
+	float: right;
+	text-align: center;
+	width: 70%;
+}
+
+h1 a {
+	font-family: cursive;
+	text-decoration: none;
+	color: #000;
+}	
+
+h1 a:hover {
+	color: blue;
+}
+
+nav {
+	float: left;
+	width: 15%;
+	border-right: 1px solid #000;
+	margin-right: 2%;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+	background-color: #90bade;
+	color: #333;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+	
+nav li {
+	border-bottom: 1px solid #90bade;
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+}
+	
+nav li a {
+	display: block;
+	padding: 3%;
+	border-left: 10px solid #1958b7;
+	border-right: 10px solid #508fc4;
+	background-color: #2175bc;
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+}
+
+html>body nav li a {
+	width: auto;
+}
+
+nav li a:hover {
+	border-left: 10px solid #1c64d1;
+	border-right: 10px solid #5ba3e0;
+	background-color: #2586d7;
+	color: #fff;
+}
+
+.title {
+	margin: 2%;
+}
+
+#fieldForm {
+	width: 58%;
+}
+
+label.field {
+	text-align: right;
+	float: left;
+	width: 40%;
+	font-weight: bold;
+}
+
+textarea {
+	width:80%;
+	height:200px;
+}
+
+#fieldForm p {
+	clear: both;
+	padding: 5px;
+}
+
+#searchForm {
+    background-color: #9faab3;
+    padding: 2% 3% 2%;
+    border-radius: 10px;
+}
+
+#fieldComments {
+	margin-top: 5%;
+	width: 96%;
+}
+
+.commentated {
+	margin-top: 3%;
+	font-weight: bold;
+}
+
+#fieldYouComment {
+	margin-top: 2%;
+	width: 96%;
+}
+
+.commentPost_name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#fieldSearch {
+    border: none;
+}
+
+#search{
+    border: none;
+    color: #666;
+ 	background: url('images/search/searchBox.png') no-repeat;
+    float: left;
+    height: 35px;
+    outline: medium none;
+    padding: 0 0 0 4%;
+    width: 45%;
+}
+
+#submitSearch{
+	float: left;
+    background: url('images/search/search.png') no-repeat;
+    width: 9%;
+    height: 36px;
+    text-indent:-1000%;
+    overflow: hidden;
+    border:none;
+    cursor:pointer;
+}
+
+#submitSearch:hover{
+    background-position: left bottom;
+}
+
+#order {
+	float: right;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.productImg {
+	float: left;
+	width: 40%;
+	margin: 0 5% 5% 2%;
+}
+
+.product {
+	margin: 2%;
+	padding: 1%;
+	border: 3px solid #ccc;
+	width: 40%;
+	float: left; 
+}
+
+.product img {
+	width: 100%;
+}
+
+.product_name {
+	font-style: italic;
+}
+
+.product_price {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.productCat {
+	margin: 2%;
+	padding: 1%;
+	border: 3px solid #ccc;
+	width: 94%;
+	float: left; 
+}
+
+.productCat img {
+	float: left;
+	width: 30%;
+}
+
+.productCat_name {
+	margin-left: 40%;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.productCat_price {
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.productCat_descr {
+	float: left;
+}
+
+.productOne {
+	margin: 2%;
+	padding: 1%;
+	border: 3px solid #ccc;
+	width: 94%;
+	float: left; 
+}
+
+.productOne img {
+	float: left;
+	width: 50%;
+}
+
+.productOne_name {
+	margin-left: 30%;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.productOne_price {
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+#productOne_buy {
+	border-radius: 7px;
+	border-color: #aaa;
+	color: red;
+	background-color: #bbb;
+	float: left;
+	width: 10%;
+	font-size: 18px;
+	margin: 2% 0 0 0;
+	padding: 0;
+}
+
+#productOne_buy:hover {
+	background-color: red;
+	color: #bbb;
+}
+
+.productOne_descr {
+	float: left;
+}
+
+.productOneGal {
+	margin: 2%;
+	padding: 1%;
+	width: 94%;
+	float: left; 
+}
+
+.productOneGal div {
+	margin: 2%;
+	padding: 1%;
+	border: 3px solid #ccc;
+	width: 25%;
+	float: left; 
+}
+
+.productOneGal img {
+	width: 100%;
+}
+
+.BlogPost {
+	margin: 0 2% 2% 2%;
+	padding: 1%;
+	border: 3px solid #ccc;
+	width: 94%;
+	float: left; 
+}
+
+.BlogPost_name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.BlogPost_date {
+	background-color: #dcdcdc;
+	padding: 0 0 0 1%;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.BlogPost_delete {
+	border-radius: 7px;
+	text-align: center;
+	text-decoration:none;
+	border-color: #aaa;
+	color: #a22;
+	background-color: #bbb;
+	float: left;
+	width: 7%;
+	font-size: 18px;
+	margin: 2% 0 0 0;
+	padding: 0;
+}
+
+.BlogPost_delete:hover {
+	background-color: #a22;
+	color: #bbb;
+}
+
+#blogForm {
+	margin-left: 2%;
+	width: 94%;
+}
+
+label.blogfield {
+	text-align: right;
+	float: left;
+	width: 21%;
+	font-weight: bold;
+}
+
+#blogtext {
+	width:80%;
+	margin: 1% 5% 0 5%;
+	height:100px;
+}
+
+#postbutton {
+	margin: 0 0 0 5%;
+}
+
+.news {
+	margin: 2%;
+	padding: 1%;
+	border: 3px solid #ccc;
+	width: 94%;
+	float: left; 
+}
+
+.news_title {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.news img {
+	width: 100%;
+}
+
+.news_date {
+	background-color: #dcdcdc;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#pageList {
+	margin: 2%;
+}
+
+.pages:after {
+	content: " |";
+}
+
+.aboutus_img {
+	float: right;
+	margin-left: 1%;
+}
+
+.phone_img {
+	float: right;
+	width: 20%;
+}
+
+.spacer {
+	clear: both;
+}
+
+footer {
+	float: right;
+	width: 15%;
+	margin: 2% 0;
+}
